@@ -1,0 +1,22 @@
+img{
+	width: 200px;
+	height: 200px;
+	opacity: 0.5;
+}
+img:hover{
+	opacity: 1;
+}
+.images{
+	float: left;
+	border:1px gray solid;
+	margin-right: 1px;
+}
+
+.desc{
+	height:20px;
+	text-align: center;
+	font-family: '宋体'
+}
+.images a:hover img {
+        border: 1px solid #333333;
+}
